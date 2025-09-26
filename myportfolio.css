@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: white;
+}
+#logo{
+    font-size: 130%;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+}
+#header{
+    display: flex;
+    background-color: aqua;
+    height: 80px;
+    justify-content: space-between;
+    font-size: 180%;
+    align-items: center;
+    position: sticky;
+    top: 1px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: white;
+    background-color: black;
+}
+#hire{
+    margin-right: 15px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+
+}
+#hire:hover{
+    color: white;
+    background-color: blue;
+}
+#home{
+    display: flex;
+}
+#pic{
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 15%;
+}
+#intropara{
+    font-size: 9vh; 
+    margin-left: -120%; 
+    margin-top: 55%;
+    position: relative;
+}
+#paragraph{
+    font-size: 50%;
+    position: absolute;
+    margin-top: -0.01%;
+    font-family: arial;
+    font-weight: 100;
+}
+#homeintro{
+    text-align: center;
+    font-size: 150%;
+    margin-top: -2%;
+}
+.pageheading{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 10vh;
+    color: aqua;
+}
