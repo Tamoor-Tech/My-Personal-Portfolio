@@ -1,0 +1,391 @@
+html{
+    scroll-behavior: smooth;
+ }
+body{
+    background-color: black;
+}
+*{
+    color: white;
+}
+#logo{
+    font-size: 130%;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+}
+#header{
+    display: flex;
+    background-color: aqua;
+    height: 80px;
+    justify-content: space-between;
+    font-size: 180%;
+    align-items: center;
+    position: sticky;
+    top: 1px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: arial;
+}
+nav a{
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+nav a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black,
+    inset 0 0 1px aqua;
+    background-color: black;
+    color: white;
+}
+#hire{
+    margin-right: 15px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+
+}
+#hire:hover{
+    color: white;
+    background-color: blue;
+}
+#veiw{
+    color: black;
+    background-color: aqua;
+    border: 1px solid white;
+    border-width: 2px;
+    height: 35px;
+    font-size: 130%;
+    border-radius: 10px;
+    margin-top: -30%;
+    margin-left: 46%;
+}
+#view:hover{
+    box-shadow: 0 0 100px aqua,
+    inset 0 0 10px aqua;
+}
+#intro{
+    font-size: 10vh; 
+    margin-left: 45%; 
+    margin-top: 10%; 
+}
+#profilepic{
+    width: 40%;
+    margin-left: 4%;
+    margin-top: -40%;
+}
+#paragraph{
+    font-family: Arial;
+    font-size: 5vh;
+    margin-left: 45%;
+    margin-top: -3%;
+}
+#homeintro{
+    font-size: 160%;
+    margin-top: 1%;
+    text-align: center;
+}
+.line1{
+    color: aqua;
+    margin-top: 6%;
+    background-color: aqua;
+    border: 2px solid aqua;
+    height: 3px;
+}
+#aboutpageheading{
+    margin-top: 7%;
+    font-size: 300%;
+    text-align: center;
+    color: blue;
+    padding: 70px;
+}
+.pageheading{
+    margin-top: 7%;
+    font-size: 300%;
+    text-align: center;
+    color: aqua;
+}
+.aboutpara{
+    color: black;
+    font-size: 180%;
+    text-align: center;
+    margin-top: -7%;
+}
+.heading{
+    font-size: 240%;
+    margin-left: 3%;
+    color: blue;
+}
+#para{
+    color: black;
+    font-size: 150%;
+    margin-left: 7%;
+}
+#aboutpic{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -80%;
+}
+#skillintro{
+    text-align: center;
+    font-size: 180%;
+}
+#programming-language{
+    display: flex;
+    justify-content: space-evenly;
+}
+.programming{
+    margin-left: 7%;
+    color: aqua;
+    font-size: 200%;
+    font-family: arial;
+}
+.p-item{
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.p-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 80px blue,
+    inset 0 0 1px aqua;
+}
+#about{
+    background-color: white;
+}
+.all-programming{
+    font-family: arial;
+    text-align: center;
+    font-size: 170%;
+    margin-top: -13%;
+}
+.programming-pic{
+    width: 50%;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+#space{
+    height: 30px;
+}
+#java{
+    width: 30%;
+    margin-left: 35%;
+}
+#javaheading{
+    font-family: arial;
+    text-align: center;
+    font-size: 170%;
+    margin-top: -1%;
+}
+#python{
+    width: 50%;
+    margin-left: 25%;
+}
+#pythonheading{
+    font-family: arial;
+    text-align: center;
+    font-size: 170%;
+    margin-top: -3%;
+}
+#project{
+    background-color: white;
+}
+#projectheading{
+    padding: 50px;
+    color: blue;
+    text-align: center;
+    font-size: 300%;
+}
+#projectintro{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -6%;
+    justify-content: center;
+}
+#projecti{
+    color: black;
+    font-size: 180%;
+    text-align: center;
+}
+.f-item{
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.f-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px black,
+    inset 0 0 1px black;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+#game{
+    font-family: arial;
+    text-align: center;
+    font-size: 170%;
+    margin-top: 13%;
+}
+#gamepic{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+#pagecut{
+    height: 40px;
+    color: white;
+}
+#contact-container{
+    width: 60%;
+    color: black;
+    height: 500px;
+    background-color: black;
+    border: 1px solid gray;
+    margin-left: 20%;
+    margin-top: 5%;
+    box-shadow:  0 0 60px blue,
+    inset 0 0 1px white;
+}
+
+#name{
+    color: black;
+    width: 50%;
+    margin-left: 20%;
+    height: 30px;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.inputall{
+    color: black;
+    width: 50%;
+    margin-left: 20%;
+    height: 30px;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+#message{
+    color: black;
+    width: 50%;
+    margin-left: 20%;
+    height: 60px;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+#footer{
+    margin-top: 10%;
+    height: 500px;
+    background-color: white;
+    color: black;
+}
+#border{
+    width: 100%;
+    height: 70%;
+    border: 2px solid #008000;
+    display: flex;
+}
+#footerflex{
+    height: 300px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+#navfooter{
+    color: black;
+    text-decoration: none;
+}
+#nav ul{
+    list-style: none;
+    font-size: 150%;
+    margin-top: -6%;
+    font-family: arial;
+    margin-left: -20%;
+    color: black;
+}
+#navfooter a{
+    text-decoration: none;
+}
+#footername{
+    font-size: 250%;
+    font-family: arial;
+    margin-top: 20%;
+    color: black;
+}
+#footerintro{
+    font-size: 150%;
+    margin-top: -9%;
+    color: black;
+}
+#links{
+    margin-right: 15%;
+    color: black;
+}
+#quick{
+    margin-top: 6%;
+    font-size: 200%;
+    color: black;
+    margin-left: -9%;
+}
+#follow{
+    font-size: 200%;
+    margin-left: -70%;
+    color: black;
+}
+#social{
+    font-size: 150%;
+    margin-top: -6%;
+    font-family: arial;
+    margin-left: -70%;
+    color: black;
+}
+#footer{
+    background-color: white;
+    color: black;
+}
+#footercopy{
+    text-align: center;
+    color: black;
+    margin-top: -5%;
+}
+#footernav{
+    margin-top: 10%;
+    margin-left: -30%;
+    font-size: 120%;
+}
+#footernav ul{
+    list-style: none;
+}
+#footernav a{
+    text-decoration: none;
+}
+#submit{
+    color: black;
+    width: 13%;
+    height: 35px;
+    font-size: 100%;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 2%;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+#submit:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 20px blue,
+    inset 0 0 1px blue;
+}
