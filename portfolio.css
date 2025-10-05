@@ -2,7 +2,8 @@ html{
     scroll-behavior: smooth;
  }
 body{
-    background-color: black;
+    background-color: white;
+    color: black;
 }
 *{
     color: white;
@@ -14,6 +15,9 @@ body{
     color: black;
 }
 #header{
+    background-color: white;
+    color: black;
+    font-family: Arial;
     display: flex;
     background-color: aqua;
     height: 80px;
@@ -388,4 +392,5 @@ nav a:hover{
     color: white;
     box-shadow: 0 0 20px blue,
     inset 0 0 1px blue;
+
 }
